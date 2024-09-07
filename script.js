@@ -9,6 +9,7 @@ get species{
 makeSound(){
 	console.log("Some generic animal sound");
 }
+}
 
 class Dog extends Animal {
 	bark(){
