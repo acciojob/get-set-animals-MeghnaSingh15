@@ -30,11 +30,11 @@ class Cat extends Animal {
 		console.log("purr");
 	}
 }
-const myDog = new Dog(species);
+const myDog = new Dog("Golden Retriever", "woof");
 myDog.makeSound(); // Output: woof
 
-const myCat = new Cat(species)
-myCat.makeSound();
+const myCat = new Cat("Siamese", "purr");
+myCat.makeSound(); // Output: purr
 
 // Do not change the code below this line
 window.Animal = Animal;
